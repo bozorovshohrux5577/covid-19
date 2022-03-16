@@ -1,0 +1,15 @@
+{
+    "manifest_version" : 2,
+    "name" : "covid 19",
+    "version" : "1.0.0",
+    "description" : "covid-19 extation",
+    "icons":{
+        "128":  "corona.png"
+    },
+
+    "browser_action":{
+        "default_popup": "index.xtml"
+    },
+
+    "content_security_policy" : "script-src 'self' https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.0/axios.min.js; object-src 'self'"
+}
